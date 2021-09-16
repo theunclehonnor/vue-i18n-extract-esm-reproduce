@@ -18,7 +18,8 @@
     "webpack-cli": "^3"
   },
   "scripts": {
-    "build": "webpack --display-error-details"
+    "build": "webpack --display-error-details",
+    "i18n-check": "vue-i18n-extract report --vueFiles './src/**/*.vue' --languageFiles './src/**/*.?(en_GB|ru_RU).js'"
   },
   "author": "theunclehonnor <jekbormoley@gmail.com>"
 }
