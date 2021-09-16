@@ -1,0 +1,24 @@
+{
+  "name": "vue-i18n-extract-esm-reproduce",
+  "license": "MIT",
+  "version": "0.0.0",
+  "description": "vue-i18n-extract es6 modules trouble reproduce",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "vue": "^2.6.14",
+    "vue-i18n": "^8.25.1",
+    "vue-i18n-extract": "^2.0.4",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^4",
+    "webpack-cli": "^3"
+  },
+  "scripts": {
+    "build": "webpack --display-error-details"
+  },
+  "author": "theunclehonnor <jekbormoley@gmail.com>"
+}
